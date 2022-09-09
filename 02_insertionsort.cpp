@@ -2,12 +2,7 @@
 #include<iostream>
 #include<conio.h>
 using namespace std;
-void swap(int *a, int *b)
-{
-    int temp = *a;
-    *a = *b;
-    *b = temp;
-}
+
 void display(int arr[], int n)
 {
     for (int i = 0; i < n; i++)
@@ -30,8 +25,8 @@ void insertionSort(int arr[], int n)
     if(n==1) return;
     for(int i=1;i<n;i++)
         insert(arr,i);
-
 }
+
 int main()
 {
 int n;
