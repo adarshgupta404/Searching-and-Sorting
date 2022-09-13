@@ -10,6 +10,7 @@ void display(int arr[], int n)
         printf("%d ", arr[i]);
     }
 }
+
 void insert(int arr[], int i)
 {
     while(i!=0&&arr[i-1]>arr[i])
@@ -20,6 +21,7 @@ void insert(int arr[], int i)
         i--;
     }
 }
+
 void insertionSort(int arr[], int n)
 {
     if(n==1) return;
