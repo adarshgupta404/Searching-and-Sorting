@@ -52,7 +52,9 @@ int main ()
 {
   int arr[] = { 5, 1, 4, 7, 2, 3 };
   int n = sizeof (arr) / sizeof (arr[0]);
+  printf("Before Sorting: ");
   display (arr, n);
+  rintf("After Sorting: ");
   mergeSort (arr, 0, n - 1);
   display (arr, n);
 }
